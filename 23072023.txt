@@ -1,0 +1,13 @@
+FINDING THE NUMBER OF 2 WHELLER AND 4 WHELLER VECHICLES
+=======================================================
+v=200
+
+w=540
+
+tw=((4*v)-w)//2 
+
+fw=v-tw
+
+print("Number of two vehicles is: ",tw)
+
+print("Number of four vehicles is: ",fw)
