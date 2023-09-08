@@ -1,0 +1,47 @@
+1.Ramanujan Number
+
+n1=int(input())
+ n2=int(input())
+ n3=n1**3
+ n4=n2**3
+ s=n3+n4
+ print(s)
+ if s==1729:
+  print(s,"ramanujan number")
+else:
+  print(s,"not a ramnujan number")
+
+
+
+2.Amicable number
+
+
+n1 = int(input())
+n2=int(input())
+l1=[]
+l2=[]
+for i in range(1,(n1//2)+1):
+  if n1%i==0:
+    l1.append(i)
+for i in range(1,(n2//2)+1):
+  if n2%i==0:
+    l2.append(i)
+if sum(l1)==n2 and sum(l2)==n1:
+  print("amacable number")
+else:
+  print("not amacable number")
+
+
+
+3.untouchable number
+
+n=int(input())
+t=n
+s=0
+for i in range(1,n):
+  if n%i==0:
+    s+=i
+if n!=s:
+  print("untouchable number")
+else:
+  print("not untouchable number")
