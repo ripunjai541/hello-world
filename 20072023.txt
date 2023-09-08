@@ -1,0 +1,45 @@
+printing a single digit
+---------------------------------
+
+n=[1,1,2,3,4,4]
+
+num=[]
+
+for i in n:
+    
+	if i not in num:
+       
+		 num.append(i)
+    
+	else:
+        
+		num.remove(i)
+
+print(num)
+          
+     or
+
+n=[1,1,2,4,4]
+
+num=[]
+
+for i in n:
+    
+	if i not in num:
+       
+		 num.append(i)
+    
+	else:
+        
+		num.remove(i)
+
+print(num)
+
+
+2. printing a set without duplicate
+------------------------------------
+
+
+n=['r','i','p','u','p','r','a','s','o','o','n']
+
+print(set(n))

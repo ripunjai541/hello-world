@@ -1,0 +1,23 @@
+1.REVERSE
+---------------------
+n=int(input())
+rev=0
+while n>0:
+  rem=n%10
+  rev=rem+rev*10
+  n=n//10
+print("reverse=",rev)
+
+2.PALINDROME
+-------------------------
+n=int(input())
+temp=n
+rev=0
+while n>0:
+  rem=n%10
+  rev=rem+rev*10
+  n=n//10
+if temp==rev:
+  print("palindrome")
+else:
+  print("not palindrome")

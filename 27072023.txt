@@ -1,0 +1,8 @@
+n=[2,56,9,80]
+s=""
+for i in n:
+    s+=str(i)
+    res=[]
+for i in s:
+    res.append(int(i))
+print(res)

@@ -1,0 +1,23 @@
+1.TABLES
+--------------------
+n=int(input())
+for i in range(1,11):
+	print(n,"*",i,"=",n*i)
+
+
+2.TABLE IN REVERSE ORDER
+---------------------------------
+n=int(input())
+for i in range(10,0,-1):
+	print(n,"*",i,"=",n*i)
+
+3.USING SLICING OPERATOR
+--------------------------------
+n="ripunjai"
+print(n[0:4])
+
+n="ripunjai"
+print(n[0:])
+
+n="ripunjai"
+print(n[-4:-1])
